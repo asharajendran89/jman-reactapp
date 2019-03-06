@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Logout,Firefox 47.0,,2019-03-06 13:31:34,2019-03-06 13:31:54,20.267s,PASSED
+,,,,,,
+Test Cases/Base/Login,Firefox 47.0,,2019-03-06 13:31:34,2019-03-06 13:31:53,18.884s,PASSED
+"openBrowser("""")",Firefox 47.0,,2019-03-06 13:31:34,2019-03-06 13:31:50,15.178s,PASSED
+"navigateToUrl(""http://192.168.0.171:4000/login"")",Firefox 47.0,INVOKE REACTAPP ,2019-03-06 13:31:50,2019-03-06 13:31:51,1.485s,PASSED
+maximizeWindow(),Firefox 47.0,,2019-03-06 13:31:51,2019-03-06 13:31:51,0.101s,PASSED
+"setText(findTestObject(""Page_React App/input_Submit_form-control""), ""asharajendran89@gmail.com"")",Firefox 47.0,ENTER EMAIL ADDRESS,2019-03-06 13:31:51,2019-03-06 13:31:52,0.686s,PASSED
+"setEncryptedText(findTestObject(""Page_React App/input_Submit_form-control_1""), ""Qs8BrKvHtI8="")",Firefox 47.0,ENTER PASSWORD,2019-03-06 13:31:52,2019-03-06 13:31:53,0.685s,PASSED
+"click(findTestObject(""Object Repository/Page_React App/button_Submit""))",Firefox 47.0,CLICK ON LOGIN,2019-03-06 13:31:53,2019-03-06 13:31:53,0.125s,PASSED
+"verifyElementPresent(findTestObject(""Page_React App/label_Profile name""), 30, STOP_ON_FAILURE)",Firefox 47.0,VERIFY SUCESSFULL LOGIN,2019-03-06 13:31:53,2019-03-06 13:31:53,0.153s,PASSED
+,,,,,,
+Test Cases/Base/Logout,Firefox 47.0,,2019-03-06 13:31:53,2019-03-06 13:31:54,0.830s,PASSED
+"click(findTestObject(""Object Repository/Page_React App/button_Logout""))",Firefox 47.0,TO LOGOUT FROM THE REACT APP,2019-03-06 13:31:53,2019-03-06 13:31:53,0.145s,PASSED
+closeBrowser(),Firefox 47.0,TO CLOSE BROWSER,2019-03-06 13:31:53,2019-03-06 13:31:54,0.289s,PASSED
