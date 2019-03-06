@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Signup_Login_Logout,Chrome 72.0.3626.119,,2019-03-06 14:57:52,2019-03-06 14:58:08,16.710s,FAILED
+,,,,,,
+Test Cases/LaunchApp,Chrome 72.0.3626.119,,2019-03-06 14:57:52,2019-03-06 14:58:01,9.454s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-06 14:57:53,2019-03-06 14:57:57,4.151s,PASSED
+"navigateToUrl(""http://192.168.0.171:4000/login"")",Chrome 72.0.3626.119,INVOKE REACTAPP ,2019-03-06 14:57:57,2019-03-06 14:57:58,1.301s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-03-06 14:57:58,2019-03-06 14:57:59,1.208s,PASSED
+,,,,,,
+Test Cases/Signup,Chrome 72.0.3626.119,,2019-03-06 14:58:01,2019-03-06 14:58:08,6.295s,FAILED
+"click(findTestObject(""Page_login React App/Page_signup React App/button_Signup""))",Chrome 72.0.3626.119,CLICK ON SIGNUP BUTTON,2019-03-06 14:58:02,2019-03-06 14:58:02,0.268s,PASSED
+"setText(findTestObject(""Page_login React App/Page_signup React App/input__form-control""), ""Asha"")",Chrome 72.0.3626.119,ENTER FIRST NAME,2019-03-06 14:58:02,2019-03-06 14:58:03,0.391s,PASSED
+"setText(findTestObject(""Page_login React App/Page_signup React App/input__form-control_1""), ""Rajendran"")",Chrome 72.0.3626.119,ENTER LAST NAME,2019-03-06 14:58:03,2019-03-06 14:58:03,0.510s,PASSED
+"setText(findTestObject(""Page_login React App/Page_signup React App/input__form-control_11""), ""asharajendran7@gmail.com"")",Chrome 72.0.3626.119,ENTER EMAIL ADDRESS,2019-03-06 14:58:03,2019-03-06 14:58:04,0.660s,PASSED
+"setEncryptedText(findTestObject(""Page_login React App/Page_signup React App/input__form-control_14""), ""Qs8BrKvHtI8="")",Chrome 72.0.3626.119,ENTER PASSWORD,2019-03-06 14:58:04,2019-03-06 14:58:04,0.378s,PASSED
+"setText(findTestObject(""Page_login React App/Page_signup React App/input__form-control_16""), ""08123458014"")",Chrome 72.0.3626.119,ENTER PHONE NUMBER,2019-03-06 14:58:04,2019-03-06 14:58:05,0.394s,PASSED
+"click(findTestObject(""Page_login React App/Page_signup React App/button_Submit""))",Chrome 72.0.3626.119,CLICK ON SUBMIT ,2019-03-06 14:58:05,2019-03-06 14:58:05,0.157s,PASSED
+"verifyElementText(findTestObject(""Page_login React App/Page_signup React App/div_Signup Successfully Done""), ""Signup Successfully Done"")",Chrome 72.0.3626.119,VERIFY SUCESSFULL SINGUP,2019-03-06 14:58:05,2019-03-06 14:58:06,0.879s,FAILED

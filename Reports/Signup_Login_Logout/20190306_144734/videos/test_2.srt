@@ -1,0 +1,32 @@
+1
+00:00:00,514 --> 00:00:00,515
+1. click(findTestObject("Page_login React App/Page_signup React App/button_Signup"))
+
+2
+00:00:00,830 --> 00:00:00,838
+5. setText(findTestObject("Page_login React App/Page_signup React App/input__form-control"), "Asha")
+
+3
+00:00:01,289 --> 00:00:01,290
+9. setText(findTestObject("Page_login React App/Page_signup React App/input__form-control_1"), "Rajendran")
+
+4
+00:00:01,755 --> 00:00:01,757
+13. setText(findTestObject("Page_login React App/Page_signup React App/input__form-control_11"), "a")
+
+5
+00:00:01,981 --> 00:00:01,984
+17. setEncryptedText(findTestObject("Page_login React App/Page_signup React App/input__form-control_14"), "HeCM15nHKBI=")
+
+6
+00:00:02,359 --> 00:00:02,361
+21. setText(findTestObject("Page_login React App/Page_signup React App/input__form-control_16"), "0")
+
+7
+00:00:02,603 --> 00:00:02,605
+25. click(findTestObject("Page_login React App/Page_signup React App/button_Submit"))
+
+8
+00:00:02,796 --> 00:00:02,797
+29. click(findTestObject("Page_login React App/Page_signup React App/div_Signup Successfully Done"))
+
