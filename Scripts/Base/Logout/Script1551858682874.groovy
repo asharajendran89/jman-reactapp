@@ -13,22 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'TO LOGOUT FROM THE REACT APP'
+WebUI.click(findTestObject('Object Repository/Page_React App/button_Logout'))
 
-'INVOKE REACTAPP '
-WebUI.navigateToUrl('http://192.168.0.171:4000/login')
-
-WebUI.maximizeWindow()
-
-'ENTER EMAIL ADDRESS'
-WebUI.setText(findTestObject('Page_React App/input_Submit_form-control'), 'asharajendran89@gmail.com')
-
-'ENTER PASSWORD'
-WebUI.setEncryptedText(findTestObject('Page_React App/input_Submit_form-control_1'), 'Qs8BrKvHtI8=')
-
-'CLICK ON LOGIN'
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Submit'))
-
-'VERIFY SUCESSFULL LOGIN'
-WebUI.verifyElementPresent(findTestObject('Page_React App/label_Profile name'), 30, FailureHandling.STOP_ON_FAILURE)
+'TO CLOSE BROWSER'
+WebUI.closeBrowser()
 
