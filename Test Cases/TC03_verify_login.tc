@@ -3,6 +3,6 @@
    <description></description>
    <name>TC03_verify_login</name>
    <tag></tag>
-   <comment></comment>
+   <comment>TO VERIFY SUCESSFUL LOGIN</comment>
    <testCaseGuid>099c1a2c-5ad6-4526-ade7-9d9ad8e0017e</testCaseGuid>
 </TestCaseEntity>

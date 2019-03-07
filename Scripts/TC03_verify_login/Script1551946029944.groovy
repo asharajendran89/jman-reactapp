@@ -15,8 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('TO VERIFY SUCESSFUL LOGIN')
 
-WebUI.callTestCase(findTestCase('TC01_verify_app'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'ENTER EMAIL ADDRESS'
 WebUI.setText(findTestObject('Page_login React App/input_Submit_form-control'), findTestData('signup').getValue(3, 1))
 

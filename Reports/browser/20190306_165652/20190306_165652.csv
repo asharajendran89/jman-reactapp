@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-browser,,,2019-03-06 16:56:54,2019-03-06 16:56:58,3.439s,INCOMPLETE
-,,,,,,
-Test Cases/LaunchApp,,,2019-03-06 16:56:54,2019-03-06 16:56:58,3.092s,ERROR
-"openBrowser("""")",,,2019-03-06 16:56:55,2019-03-06 16:56:55,0.085s,ERROR

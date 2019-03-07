@@ -3,6 +3,6 @@
    <description></description>
    <name>TC02_verify_signup</name>
    <tag></tag>
-   <comment></comment>
+   <comment>VERIFY SUCESSFULL SIGNUP </comment>
    <testCaseGuid>940f364a-9859-48df-a977-5e5e0c1ce600</testCaseGuid>
 </TestCaseEntity>

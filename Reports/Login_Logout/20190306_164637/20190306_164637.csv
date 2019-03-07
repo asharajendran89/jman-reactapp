@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Login_Logout,,,2019-03-06 16:46:40,2019-03-06 16:46:44,3.830s,INCOMPLETE
-,,,,,,
-Test Cases/Login,,,2019-03-06 16:46:41,2019-03-06 16:46:44,3.430s,ERROR
-"setText(findTestObject(""Page_login React App/input_Submit_form-control""), ""asharajendran89@gmail.com"")",,ENTER EMAIL ADDRESS,2019-03-06 16:46:42,2019-03-06 16:46:42,0.162s,ERROR

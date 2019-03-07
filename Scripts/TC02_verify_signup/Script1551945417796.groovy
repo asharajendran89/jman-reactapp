@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('VERIFY SUCESSFULL SIGNUP ')
 
-WebUI.callTestCase(findTestCase('TC01_verify_app'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('TC01_verify_app'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'CLICK ON SIGNUP BUTTON'
 WebUI.click(findTestObject('Page_login React App/Page_signup React App/button_Signup'))

@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-browser,Firefox 47.0,,2019-03-06 17:03:09,2019-03-06 17:03:44,34.479s,PASSED
-,,,,,,
-Test Cases/LaunchApp,Firefox 47.0,,2019-03-06 17:03:10,2019-03-06 17:03:44,33.847s,PASSED
-"openBrowser("""")",Firefox 47.0,,2019-03-06 17:03:10,2019-03-06 17:03:35,24.653s,PASSED
-"navigateToUrl(""http://192.168.0.171:4000/login"")",Firefox 47.0,INVOKE REACTAPP ,2019-03-06 17:03:35,2019-03-06 17:03:41,6.217s,PASSED
-maximizeWindow(),Firefox 47.0,,2019-03-06 17:03:41,2019-03-06 17:03:41,0.111s,PASSED
