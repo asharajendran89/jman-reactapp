@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+browser,Chrome 72.0.3626.119,,2019-03-06 16:55:29,2019-03-06 16:55:54,24.462s,PASSED
+,,,,,,
+Test Cases/LaunchApp,Chrome 72.0.3626.119,,2019-03-06 16:55:30,2019-03-06 16:55:53,23.250s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-06 16:55:31,2019-03-06 16:55:48,17.236s,PASSED
+"navigateToUrl(""http://192.168.0.171:4000/login"")",Chrome 72.0.3626.119,INVOKE REACTAPP ,2019-03-06 16:55:48,2019-03-06 16:55:50,1.801s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,,2019-03-06 16:55:50,2019-03-06 16:55:51,1.205s,PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_Logout,,,2019-03-06 16:50:14,2019-03-06 16:50:18,3.470s,INCOMPLETE
+,,,,,,
+Test Cases/LaunchApp,,,2019-03-06 16:50:15,2019-03-06 16:50:18,3.114s,ERROR
+"openBrowser("""")",,,2019-03-06 16:50:16,2019-03-06 16:50:16,0.068s,ERROR
